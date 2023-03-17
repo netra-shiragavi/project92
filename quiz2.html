@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Math Quiz</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="game.css">
+
+<script src="quiz2.js"></script>
+
+<body>
+
+<h4 id="p1"></h4> <span id="p1_score"></span>
+
+<h4 id="p2"></h4> <span id="p2_score"></span>
+
+<center>
+
+	<h1>Math Quiz</h1>
+
+    <br>
+	 
+	<div id="q" class="col-lg-4 col-sm-8 col-xs-11 login_div1"> 
+		<h2 id="q_turn">Question Turn : </h2>
+		 <br>
+		 <h2 id="a_turn">Answer Turn :</h2>
+	</div>
+<br><br><br>
+    <div id="q" class="col-lg-4 col-sm-8 col-xs-11 login_div1">
+        <span>
+            <h4 id="no1"></h4> <h4>x</h4> <h4 id="no2"></h4>
+        </span>
+      <span>  <h4>Answer :</h4> <input id="ans" placeholder="Type the answer " class="form-control" type="number"> </span>
+     <br>
+      <button id="send" onclick="check()" style="width:30%" class="btn btn-primary" >Check</button>
+    </div>]
+    

@@ -1,0 +1,76 @@
+body
+{	
+	background-image: url("bg.jpg");}
+
+	.login_div1 
+	{
+		background: rgb(252, 200, 209);
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+	   
+	}
+
+
+#playe1_name_input , #playe2_name_input
+{
+	display: inline-block;
+	margin-left: 2px;
+	background-color: rgb(230, 230, 255);
+	color: black;
+	
+}
+#word
+{
+	width: 60%;
+}
+#word_display
+{
+	letter-spacing: 5px;
+}
+#output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: left;
+}
+
+#login_button{
+	background-color: aquamarine;
+	color: white;
+	
+}
+
+
+
+h1{
+	background-color: #ffffff;
+	
+}
+
+#wel{
+	background-color: rgb(205, 255, 238);
+	
+}
+
+#label{
+	color: black;
+	background-color: rgb(236, 255, 210);
+}
+
+h1{
+	background-color: rgb(205, 255, 238);
+}
+
+h2{
+	background-color: rgb(196, 228, 255);
+}
+
+#q{
+	background-color: rgb(196, 228, 255);
+	border: 5px;
+}
+
